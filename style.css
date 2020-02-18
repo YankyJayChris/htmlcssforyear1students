@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    height: 100vh;
+}
+
+/* ============== nav bar ====================  */
+.navBar{
+    background-color: blueviolet;
+    padding: 10px;
+    height: 60px;
+    display: flex;
+    box-shadow: -2px 13px 25px -9px rgba(0, 0, 0, 0.5);
+}
+ul{
+    list-style: none;
+    display: flex;
+    color: #ffffff;
+    height: 100%;
+    align-items: center;
+}
+li{
+    margin-right: 20px;
+    padding: 10px;
+}
+li:hover{
+    background-color: tomato;
+}
+.menu{
+    text-decoration: none;
+    color: white;
+}
+.searchBox{
+    border-radius: 25px;
+    padding: 10px;
+}
+
+/* ===================== section css ========================= */
+
+section {
+   padding: 20px;
+}
+
+.card{
+    margin-bottom: 20px;
+    box-shadow: -2px 3px 25px -9px rgba(207, 57, 57, 0.4);
+    padding: 20px;
+}
+p{
+    margin-bottom: 10px;
+}
+/* ================== footer =================== */
+footer{
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 50px;
+    text-align: center;
+}
